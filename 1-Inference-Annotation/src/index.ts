@@ -6,6 +6,8 @@ function greet(name: string): string {
 
 console.log(greet("Alice"));
 
+console.log("");
+
 // ! category : Medium
 
 function calculateArea(
@@ -17,6 +19,8 @@ function calculateArea(
 
 const rectangle = calculateArea(5, 10);
 console.log(rectangle);
+
+console.log("");
 
 // ! category : Hard
 
