@@ -5,8 +5,7 @@
 TypeScript practice exercises, covering various topics to help users learn and master TypeScript. Each exercise is designed to reinforce key concepts and improve coding skills.
 
 ## Table of Contents
-Each part of the Exercise is located in its own branch. Click on the links below to navigate to the respective branch :
-- [Part 1 : Inference & Annotation](https://github.com/Zevhys/ts-practice/tree/1-Inference-Annotation)
+Each part of the Exercise is located in its own folder. 
 
 # Tech Stack
 
