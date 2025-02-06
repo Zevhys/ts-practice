@@ -36,22 +36,3 @@ console.log(calculateArea("rectangle", { width: 4, height: 5 }));
 console.log(calculateArea("rectangle", 5));
 
 console.log("");
-
-// ! Category : Hard
-
-class Vehicle {
-  constructor(
-    public type: "car" | "motorcycle",
-    public fuel: "petrol" | "diesel" | "electric"
-  ) {}
-
-  describe() {
-    return `This vehicle is a ${this.type} that runs on ${this.fuel}.`;
-  }
-}
-
-const car = new Vehicle("car", "petrol");
-console.log(car.describe());
-
-const motorcycle = new Vehicle("motorcycle", "electric");
-console.log(motorcycle.describe());

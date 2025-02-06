@@ -41,35 +41,3 @@ console.log(mergeObjects(null, obj2));
 console.log(mergeObjects(obj1, 42));
 
 console.log("");
-
-// ! Category : Hard
-
-class DynamicStore {
-  private store: { [key: string]: any } = {};
-
-  setItem(key: string, value: any): void {
-    this.store[key] = value;
-  }
-
-  getItem(key: string): any {
-    if (key in this.store) {
-      return this.store[key];
-    } else {
-      return "Item not found";
-    }
-  }
-
-  removeItem(key: string): void | string {
-    if (key in this.store) {
-      delete this.store[key];
-    } else {
-      return "Item not found";
-    }
-  }
-}
-
-const store = new DynamicStore();
-store.setItem("name", "Alice");
-console.log(store.getItem("name"));
-store.removeItem("name");
-console.log(store.getItem("name"));
