@@ -1,4 +1,5 @@
 // ! Category : Easy
+// TODO : Create a function named `isString` that takes a parameter of type `unknown` and returns a boolean value. The function should check if the parameter is a string. If the parameter is a string, the function should return true; otherwise, it should return false.
 
 function isString(params: unknown): unknown {
   if (typeof params === "string") {
@@ -15,6 +16,7 @@ console.log(isString({}));
 console.log("");
 
 // ! Category : Medium
+// TODO : Create a function named `isString` that takes a parameter of type `unknown` and returns a boolean value. The function should check if the parameter is a string. If the parameter is a string, the function should return true; otherwise, it should return false.
 
 function safeParse(params: unknown) {
   try {
