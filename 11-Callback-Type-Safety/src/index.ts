@@ -1,11 +1,11 @@
 // ! Category : Easy
-// TODO : reate a function named `processData` that takes two parameters: an array of type number and a callback. The callback takes a single parameter of type number and returns void. The `processData` function should call the callback for each element in the array.
+// TODO : Create a function named `processData` that takes two parameters: an array of type number and a callback. The callback takes a single parameter of type number and returns void. The `processData` function should call the callback for each element in the array.
+
+type Callback = (a: number) => void;
 
 function processData(params: number[], cb: Callback) {
   params.forEach(cb);
 }
-
-type Callback = (a: number) => void;
 
 function logNumber(num: number): void {
   console.log(`Number: ${num}`);
@@ -19,7 +19,9 @@ console.log("");
 // ! Category : Medium
 // TODO :  Create a function named `filterData` that takes two parameters: an array of type string and a callback. The callback takes a single parameter of type string and returns a boolean. The `filterData` function should return a new array containing only the elements for which the callback returns true.
 
-function filterData(params: string[], cb: cbs) {
+type cbs = (a: string) => boolean;
+
+function filterData(params: string[], cb: cbs): string[] {
   let result: string[] = [];
 
   for (const element of params) {
@@ -29,8 +31,6 @@ function filterData(params: string[], cb: cbs) {
   }
   return result;
 }
-
-type cbs = (a: string) => boolean;
 
 function isShortString(str: string): boolean {
   return str.length < 5;
