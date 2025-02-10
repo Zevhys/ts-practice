@@ -46,4 +46,4 @@ function getUserInfo(
 }
 
 console.log(getUserInfo(1));
-console.log(getUserInfo(""));
+console.log(getUserInfo("Bob"));
