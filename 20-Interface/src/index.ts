@@ -45,8 +45,6 @@ interface Vehicle {
   brake(): void;
 }
 
-// ! Metode accelerate() pada Car harus menambah speed sebesar 10 dan metode brake() harus mengurangi speed sebesar 5. Metode accelerate() pada Bike harus menambah speed sebesar 5 dan metode brake() harus mengurangi speed sebesar 3.
-
 class Car implements Vehicle {
   constructor(public brand: string, public speed: number) {}
 
