@@ -1,0 +1,26 @@
+{
+  "name": "23-generics-function",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node.js",
+    "TypeScript",
+    "Exercise"
+  ],
+  "author": "Zevhys",
+  "license": "MIT",
+  "description": "Practice TypeScript Exercises",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zevhys/calc-cli"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
