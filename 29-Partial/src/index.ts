@@ -7,7 +7,7 @@ interface Person {
   address: string;
 }
 
-function updatePerson(person: Person, partialUpdate: Partial<Person>): {} {
+function updatePerson(person: Person, partialUpdate: Partial<Person>): Person {
   return { ...person, ...partialUpdate };
 }
 
