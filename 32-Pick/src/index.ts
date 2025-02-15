@@ -9,7 +9,7 @@ interface Person {
 
 type personPick = Pick<Person, "name" | "email">;
 
-function createContact(person: personPick): {} {
+function createContact(person: personPick): personPick {
   return {
     name: person.name,
     email: person.email,
