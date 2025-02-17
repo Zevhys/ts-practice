@@ -45,19 +45,18 @@ type excludeProduct = Exclude<keyof Product, "price" | "stock">;
 type pickProduct = Pick<Product, excludeProduct>;
 
 class ProductCatalog {
-  private catalog: pickProduct[] = [];
+  private catalog: Product[] = [];
 
   addProduct(product: Product): void {
-    const newProduct: pickProduct = {
-      id: product.id,
-      name: product.name,
-      category: product.category,
-    };
-    this.catalog.push(newProduct);
+    this.catalog.push(product);
   }
 
   getProductSummary(id: number): pickProduct | undefined {
-    return this.catalog.find((p) => p.id === id);
+    const product = this.catalog.find((p) => p.id === id);
+
+    if (product) {
+      return { id: product.id, name: product.name, category: product.category };
+    }
   }
 }
 
