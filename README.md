@@ -1,6 +1,6 @@
 # ts-practice
 
-[![Author](http://img.shields.io/badge/author-@Zevhys-blue.svg)](https://www.linkedin.com/in/rakha-djauhari/) [![GitHub license](https://img.shields.io/github/license/Zevhys/ts-practice)](https://github.com/Zevhys/ts-practice/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/Zevhys/ts-practice) 
+[![Author](http://img.shields.io/badge/author-@Zevhys-blue.svg)](https://www.linkedin.com/in/rakha-djauhari/) [![GitHub license](https://img.shields.io/github/license/Zevhys/ts-practice)](https://github.com/Zevhys/ts-practice/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/Zevhys/ts-practice) [![Issues Welcome](https://img.shields.io/badge/issues-welcome-brightgreen.svg?style=flat-square)](https://github.com/Zevhys/your-repo/issues)
 
 TypeScript practice exercises, covering various topics to help users learn and master TypeScript. Each exercise is designed to reinforce key concepts and improve coding skills.
 
