@@ -5,7 +5,8 @@
 TypeScript practice exercises, covering various topics to help users learn and master TypeScript. Each exercise is designed to reinforce key concepts and improve coding skills.
 
 ## Table of Contents
-Each part of the Exercise is located in its own folder. 
+- Each part of the Exercise is located in its own folder. 
+- Questions are categorized into two difficulty levels : easy and medium.
 
 # Tech Stack
 
