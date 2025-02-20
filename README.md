@@ -16,14 +16,20 @@ TypeScript practice exercises, covering various topics to help users learn and m
 
 # Requirements
 
-```bash
+<pre>
 # Clone Repository
 git clone https://github.com/Zevhys/ts-practice .
 
 # Install Dependencies
 npm install
 
+# Navigate to the project directory
+cd (folder-name) 
+
+# To move back to the parent directory
+cd ..
+
 # Run The Application
 - npm run start (Run production app)
 - npm run build (Compiles code)
-```
+</pre>
