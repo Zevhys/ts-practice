@@ -1,7 +1,7 @@
 ---
 name: learning_issues
 about: TypeScript Exercise Issue
-title: ''
+title: your_problem
 labels: bug, help wanted, invalid, question
 assignees: Zevhys
 
