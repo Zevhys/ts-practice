@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a function named `printStatus` that takes a parameter `status` with a union type of 'success' | 'error' | 'loading'. The function should print a message based on the value of `status`:
+// ! Category: Easy
+// Todo: Create a function named `printStatus` that takes a parameter `status` with a union type of 'success' | 'error' | 'loading'. The function should print a message based on the value of `status`:
 /*
 - If the status is 'success', print: "Operation was successful."
 - If the status is 'error', print: "An error occurred during the operation."
@@ -22,8 +22,8 @@ printStatus("loading");
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a function named `calculateArea` that takes two parameters: `shape` (with a union type of 'circle' | 'rectangle') and `dimensions` (with a union type of number | { width: number, height: number }). The function should calculate and return the area of the given shape:
+// ! Category: Medium
+// Todo: Create a function named `calculateArea` that takes two parameters: `shape` (with a union type of 'circle' | 'rectangle') and `dimensions` (with a union type of number | { width: number, height: number }). The function should calculate and return the area of the given shape:
 /*
 - If the shape is 'circle' and `dimensions` is a number, return the area of the circle using the formula: π * radius^2.
 - If the shape is 'rectangle' and `dimensions` is an object { width: number, height: number }, return the area of the rectangle using the formula: width * height.

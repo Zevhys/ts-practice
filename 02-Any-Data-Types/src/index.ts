@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a function named `printMessage` that takes a single parameter of type `any`. The function should check the type of the parameter and print an appropriate message:
+// ! Category: Easy
+// Todo: Create a function named `printMessage` that takes a single parameter of type `any`. The function should check the type of the parameter and print an appropriate message:
 /* 
 - If the type is `string`, print: "Message is a string: [message]"
 - If the type is `number`, print: "Message is a number: [message]"
@@ -26,8 +26,8 @@ printMessage([1, 2, 3]);
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a function named `mergeObjects` that takes two parameters of type `any`. The function should check if both parameters are objects. If they are, merge the two objects and return the result. If either parameter is not an object, return an error message: "Both parameters must be objects".
+// ! Category: Medium
+// Todo: Create a function named `mergeObjects` that takes two parameters of type `any`. The function should check if both parameters are objects. If they are, merge the two objects and return the result. If either parameter is not an object, return an error message: "Both parameters must be objects".
 
 function mergeObjects(a: any, b: any): any {
   if (

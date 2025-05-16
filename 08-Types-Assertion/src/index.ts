@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a function named `getLength` that takes one parameter of type `unknown`. The function should use type assertion to check if the parameter is a string or an array, and return its length. If the parameter is neither a string nor an array, the function should return an error message.
+// ! Category: Easy
+// Todo: Create a function named `getLength` that takes one parameter of type `unknown`. The function should use type assertion to check if the parameter is a string or an array, and return its length. If the parameter is neither a string nor an array, the function should return an error message.
 
 function getLength(params: unknown): unknown {
   if (typeof params === "string") {
@@ -18,11 +18,11 @@ console.log(getLength({}));
 
 console.log("");
 
-// ! Category : Medium
-// TODO :  Create a class named `Person` with properties `name` and `age`. Then, create a function named `describePerson` that takes a parameter of type `unknown`. The function should use type assertion to check if the parameter is an object of type `Person`, and return a string describing the person in the format "Name is age years old". If the parameter is not an object of type `Person`, the function should return an error message.
+// ! Category: Medium
+// Todo:  Create a class named `Person` with properties `name` and `age`. Then, create a function named `describePerson` that takes a parameter of type `unknown`. The function should use type assertion to check if the parameter is an object of type `Person`, and return a string describing the person in the format "Name is age years old". If the parameter is not an object of type `Person`, the function should return an error message.
 
 class Person {
-  constructor(public name: string, public age: number) {}
+  constructor(public name: string, public age: number) { }
 }
 
 function describePerson(params: unknown): string {

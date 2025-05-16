@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an interface named `Person` that has the properties `name` (required) of type string, `age` (optional) of type number, and `address` (optional) of type string. Create a function named `printPersonInfo` that takes a parameter of type `Person` and prints the person's information. If `age` or `address` is not available, print an appropriate message.
+// ! Category: Easy
+// Todo: Create an interface named `Person` that has the properties `name` (required) of type string, `age` (optional) of type number, and `address` (optional) of type string. Create a function named `printPersonInfo` that takes a parameter of type `Person` and prints the person's information. If `age` or `address` is not available, print an appropriate message.
 
 interface Person {
   name: string;
@@ -25,8 +25,8 @@ printPersonInfo(person2);
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an interface named `Product` that has the properties `id` (required) of type number, `name` (required) of type string, `price` (required) of type number, and `description` (optional) of type string. Create a function named `getProductSummary` that takes a parameter of type `Product` and returns a string summarizing the product. If `description` is not available, do not include it in the summary.
+// ! Category: Medium
+// Todo: Create an interface named `Product` that has the properties `id` (required) of type number, `name` (required) of type string, `price` (required) of type number, and `description` (optional) of type string. Create a function named `getProductSummary` that takes a parameter of type `Product` and returns a string summarizing the product. If `description` is not available, do not include it in the summary.
 
 interface Product {
   id: number;
