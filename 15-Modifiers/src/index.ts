@@ -1,8 +1,8 @@
-// ! Category : Easy
-// TODO : Create a class named `Person` with properties `name` and `age`. The `name` property should be accessible from outside the class but should not be changeable after initialization. The `age` property should be accessible and changeable from outside the class. The class should also have a method named `getDetails` that returns a string in the format: "<name> is <age> years old."
+// ! Category: Easy
+// Todo: Create a class named `Person` with properties `name` and `age`. The `name` property should be accessible from outside the class but should not be changeable after initialization. The `age` property should be accessible and changeable from outside the class. The class should also have a method named `getDetails` that returns a string in the format: "<name> is <age> years old."
 
 class Person {
-  constructor(readonly name: string, public age: number) {}
+  constructor(readonly name: string, public age: number) { }
 
   getDetails(): string {
     return `${this.name} is ${this.age} years old`;
@@ -17,15 +17,15 @@ console.log(person.getDetails());
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a class named `BankAccount` with properties `accountNumber`, `balance`, and `ownerName`.The `accountNumber` property should be initialized through the constructor and should not be changeable after that.The `balance` property should only be accessible and changeable from within the class. The `ownerName` property should be accessible and changeable from outside the class.The class should also have `deposit` and `withdraw` methods to add and subtract from the balance, as well as a method named `getAccountInfo` that returns a string in the format: "<ownerName>'s account <accountNumber> has balance: $<balance>."
+// ! Category: Medium
+// Todo: Create a class named `BankAccount` with properties `accountNumber`, `balance`, and `ownerName`.The `accountNumber` property should be initialized through the constructor and should not be changeable after that.The `balance` property should only be accessible and changeable from within the class. The `ownerName` property should be accessible and changeable from outside the class.The class should also have `deposit` and `withdraw` methods to add and subtract from the balance, as well as a method named `getAccountInfo` that returns a string in the format: "<ownerName>'s account <accountNumber> has balance: $<balance>."
 
 class BankAccount {
   constructor(
     readonly accountNumber: number,
     private balance: number,
     public ownerName: string
-  ) {}
+  ) { }
 
   deposit(amount: number): void {
     this.balance += amount;

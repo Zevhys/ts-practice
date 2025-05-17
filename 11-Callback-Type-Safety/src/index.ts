@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a function named `processData` that takes two parameters: an array of type number and a callback. The callback takes a single parameter of type number and returns void. The `processData` function should call the callback for each element in the array.
+// ! Category: Easy
+// Todo: Create a function named `processData` that takes two parameters: an array of type number and a callback. The callback takes a single parameter of type number and returns void. The `processData` function should call the callback for each element in the array.
 
 type Callback = (a: number) => void;
 
@@ -16,8 +16,8 @@ processData(numbers, logNumber);
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a function named `filterData` that takes two parameters: an array of type string and a callback. The callback takes a single parameter of type string and returns a boolean. The `filterData` function should return a new array containing only the elements for which the callback returns true.
+// ! Category: Medium
+// Todo: Create a function named `filterData` that takes two parameters: an array of type string and a callback. The callback takes a single parameter of type string and returns a boolean. The `filterData` function should return a new array containing only the elements for which the callback returns true.
 
 type cbs = (a: string) => boolean;
 

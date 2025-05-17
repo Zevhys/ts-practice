@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a class named `Animal` with properties `name` and `sound`. The class should have a constructor that takes two parameters: `name` and `sound`, which will be initialized to the class properties. Additionally, create a method named `makeSound` that returns a string in the format: "<name> makes a '<sound>' sound."
+// ! Category: Easy
+// Todo: Create a class named `Animal` with properties `name` and `sound`. The class should have a constructor that takes two parameters: `name` and `sound`, which will be initialized to the class properties. Additionally, create a method named `makeSound` that returns a string in the format: "<name> makes a '<sound>' sound."
 
 class Animal {
   name: string;
@@ -20,8 +20,8 @@ console.log(dog.makeSound());
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a class named `Book` with properties `title`, `author`, and `year`. The class should have a constructor that takes three parameters: `title`, `author`, and `year`, which will be initialized to the class properties. Additionally, create a method named `getSummary` that returns a string in the format: "<title> by <author>, published in <year>."
+// ! Category: Medium
+// Todo: Create a class named `Book` with properties `title`, `author`, and `year`. The class should have a constructor that takes three parameters: `title`, `author`, and `year`, which will be initialized to the class properties. Additionally, create a method named `getSummary` that returns a string in the format: "<title> by <author>, published in <year>."
 
 class Book {
   title: string;

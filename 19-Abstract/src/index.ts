@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an abstract class named `Shape` that has abstract methods `area` and `perimeter`. Then, create two derived classes `Circle` and `Square` that implement the `area` and `perimeter` methods according to their respective shapes. For `Circle`, use the `radius` property and for `Square`, use the `side` property.
+// ! Category: Easy
+// Todo: Create an abstract class named `Shape` that has abstract methods `area` and `perimeter`. Then, create two derived classes `Circle` and `Square` that implement the `area` and `perimeter` methods according to their respective shapes. For `Circle`, use the `radius` property and for `Square`, use the `side` property.
 
 abstract class Shape {
   abstract area(): number;
@@ -45,8 +45,8 @@ console.log(`Perimeter of Square: ${square.perimeter()}`);
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an abstract class named `Vehicle` that has abstract methods `startEngine` and `stopEngine`. Then, create two derived classes `Car` and `Motorcycle` that implement the `startEngine` and `stopEngine` methods with appropriate messages. For `Car`, add a property `numberOfDoors` and for `Motorcycle`, add a property `hasSidecar`.
+// ! Category: Medium
+// Todo: Create an abstract class named `Vehicle` that has abstract methods `startEngine` and `stopEngine`. Then, create two derived classes `Car` and `Motorcycle` that implement the `startEngine` and `stopEngine` methods with appropriate messages. For `Car`, add a property `numberOfDoors` and for `Motorcycle`, add a property `hasSidecar`.
 
 abstract class Vehicle {
   abstract startEngine(): void;

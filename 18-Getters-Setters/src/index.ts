@@ -1,8 +1,8 @@
-// ! Category : Easy
-// TODO : Create a class named `Person` that has two properties: `firstName` and `lastName`. Create a getter and setter for the `fullName` property that combines `firstName` and `lastName` with a space in between. The `fullName` setter should be able to split the given full name into `firstName` and `lastName`.
+// ! Category: Easy
+// Todo: Create a class named `Person` that has two properties: `firstName` and `lastName`. Create a getter and setter for the `fullName` property that combines `firstName` and `lastName` with a space in between. The `fullName` setter should be able to split the given full name into `firstName` and `lastName`.
 
 class Person {
-  constructor(public firstName: string = "", public lastName: string = "") {}
+  constructor(public firstName: string = "", public lastName: string = "") { }
 
   get fullName(): string {
     return `${this.firstName} ${this.lastName}`;
@@ -24,11 +24,11 @@ console.log(person.lastName);
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a class named `Rectangle` that has two properties: `width` and `height`. Create a getter for the `area` property that calculates and returns the area of the rectangle. Create a setter for the `area` property that allows setting the area of the rectangle, assuming that the `width` remains the same and the `height` will be adjusted proportionally.
+// ! Category: Medium
+// Todo: Create a class named `Rectangle` that has two properties: `width` and `height`. Create a getter for the `area` property that calculates and returns the area of the rectangle. Create a setter for the `area` property that allows setting the area of the rectangle, assuming that the `width` remains the same and the `height` will be adjusted proportionally.
 
 class Rectangle {
-  constructor(public width: number = 0, public height: number = 0) {}
+  constructor(public width: number = 0, public height: number = 0) { }
 
   get area(): number {
     return this.width * this.height;

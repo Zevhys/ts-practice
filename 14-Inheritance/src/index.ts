@@ -1,8 +1,8 @@
-// ! Category : Easy
-// TODO : Create a base class named `Vehicle` with properties `make` and `model`. The class should have a constructor that takes two parameters: `make` and `model`, which will be initialized to the class properties. Additionally, create a method named `getDetails` that returns a string in the format: "<make> <model>". Then, create a derived class named `Car` that inherits from the `Vehicle` class. Add an additional property `year` to the `Car` class and modify the constructor to take parameters `make`, `model`, and `year`. Create a method named `getCarDetails` in the `Car` class that returns a string in the format: "<year> <make> <model>".
+// ! Category: Easy
+// Todo: Create a base class named `Vehicle` with properties `make` and `model`. The class should have a constructor that takes two parameters: `make` and `model`, which will be initialized to the class properties. Additionally, create a method named `getDetails` that returns a string in the format: "<make> <model>". Then, create a derived class named `Car` that inherits from the `Vehicle` class. Add an additional property `year` to the `Car` class and modify the constructor to take parameters `make`, `model`, and `year`. Create a method named `getCarDetails` in the `Car` class that returns a string in the format: "<year> <make> <model>".
 
 class Vehicle {
-  constructor(public make: string, public model: string) {}
+  constructor(public make: string, public model: string) { }
 
   getDetails(): string {
     return `${this.make} ${this.model}`;
@@ -24,11 +24,11 @@ console.log(myCar.getCarDetails());
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a base class named `Employee` with properties `name` and `salary`. The class should have a constructor that takes two parameters: `name` and `salary`, which will be initialized to the class properties. Additionally, create a method named `getDetails` that returns a string in the format: "<name> earns $<salary>". Then, create a derived class named `Manager` that inherits from the `Employee` class. Add an additional property `department` to the `Manager` class and modify the constructor to take parameters `name`, `salary`, and `department`. Create a method named `getManagerDetails` in the `Manager` class that returns a string in the format: "<name> manages the <department> department and earns $<salary>".
+// ! Category: Medium
+// Todo: Create a base class named `Employee` with properties `name` and `salary`. The class should have a constructor that takes two parameters: `name` and `salary`, which will be initialized to the class properties. Additionally, create a method named `getDetails` that returns a string in the format: "<name> earns $<salary>". Then, create a derived class named `Manager` that inherits from the `Employee` class. Add an additional property `department` to the `Manager` class and modify the constructor to take parameters `name`, `salary`, and `department`. Create a method named `getManagerDetails` in the `Manager` class that returns a string in the format: "<name> manages the <department> department and earns $<salary>".
 
 class Employee {
-  constructor(public name: string, public salary: number) {}
+  constructor(public name: string, public salary: number) { }
 
   getDetails(): string {
     return `${this.name} earns ${this.salary}`;
