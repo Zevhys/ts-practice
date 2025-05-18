@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an interface `Person` that has properties `name`, `age`, and `address`. Then create a generic function named `updatePerson` that takes two parameters: an object `person` of type `Person` and an object `partialUpdate` of type `Partial<Person>`. The `updatePerson` function should return a new object that is the result of merging `person` and `partialUpdate`.
+// ! Category: Easy
+// Todo: Create an interface `Person` that has properties `name`, `age`, and `address`. Then create a generic function named `updatePerson` that takes two parameters: an object `person` of type `Person` and an object `partialUpdate` of type `Partial<Person>`. The `updatePerson` function should return a new object that is the result of merging `person` and `partialUpdate`.
 
 interface Person {
   name: string;
@@ -19,8 +19,8 @@ console.log(updatedPerson);
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an interface `Product` that has properties `id`, `name`, `price`, and `description`. Then create a class `ProductManager` that has methods `addProduct`, `getProductById`, and `updateProduct`. The `updateProduct` method should take two parameters: the `id` of the product to be updated and an object `partialUpdate` of type `Partial<Product>`. The `updateProduct` method should merge the updated properties with the existing product.
+// ! Category: Medium
+// Todo: Create an interface `Product` that has properties `id`, `name`, `price`, and `description`. Then create a class `ProductManager` that has methods `addProduct`, `getProductById`, and `updateProduct`. The `updateProduct` method should take two parameters: the `id` of the product to be updated and an object `partialUpdate` of type `Partial<Product>`. The `updateProduct` method should merge the updated properties with the existing product.
 
 interface Product {
   id: number;

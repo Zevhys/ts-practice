@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a generic function named `mergeObjects` that merges two objects. This function should use generic constraints to ensure that both parameters are objects. The function should return a new object that is a combination of the two objects provided as parameters.
+// ! Category: Easy
+// Todo: Create a generic function named `mergeObjects` that merges two objects. This function should use generic constraints to ensure that both parameters are objects. The function should return a new object that is a combination of the two objects provided as parameters.
 
 function mergeObjects<T extends object, U extends object>(
   obj1: T,
@@ -15,8 +15,8 @@ console.log(merged);
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a generic class named `Collection` that uses generic constraints to ensure that the type of elements in the collection has a property `id` of type number. This class should have methods to add elements, get elements by id, and remove elements by id.
+// ! Category: New
+// Todo: Create a generic class named `Collection` that uses generic constraints to ensure that the type of elements in the collection has a property `id` of type number. This class should have methods to add elements, get elements by id, and remove elements by id.
 
 class Collection<T extends { id: number }> {
   private items: T[] = [];

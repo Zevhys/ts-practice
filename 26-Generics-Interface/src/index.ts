@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a generic interface called 'DataContainer<T>' that has a property 'data' of type T, a method 'getValue()' that returns type T, and a method 'setValue(value: T)' that accepts a parameter of type T. Then implement this interface in a class called 'NumberContainer' that can only accept number data type. This class must be able to store a number value, retrieve the stored value, and modify the stored value.
+// ! Category: Easy
+// Todo: Create a generic interface called 'DataContainer<T>' that has a property 'data' of type T, a method 'getValue()' that returns type T, and a method 'setValue(value: T)' that accepts a parameter of type T. Then implement this interface in a class called 'NumberContainer' that can only accept number data type. This class must be able to store a number value, retrieve the stored value, and modify the stored value.
 
 interface DataContainer<T> {
   data: T;
@@ -8,7 +8,7 @@ interface DataContainer<T> {
 }
 
 class NumberContainer implements DataContainer<number> {
-  constructor(public data: number) {}
+  constructor(public data: number) { }
 
   getValue(): number {
     return this.data;
@@ -26,8 +26,8 @@ console.log(numContainer.getValue());
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a generic interface named `Repository` that has three methods: `add`, `get`, and `remove`. The `add` method takes one parameter of generic type `T` and does not return a value. The `get` method returns a value of type `T` based on the given index. The `remove` method deletes the value based on the given index and does not return a value. Implement this interface in a class named `ArrayRepository` that uses an array to store items. Use the generic type `T` to define both the interface and the class.
+// ! Category: Medium
+// Todo: Create a generic interface named `Repository` that has three methods: `add`, `get`, and `remove`. The `add` method takes one parameter of generic type `T` and does not return a value. The `get` method returns a value of type `T` based on the given index. The `remove` method deletes the value based on the given index and does not return a value. Implement this interface in a class named `ArrayRepository` that uses an array to store items. Use the generic type `T` to define both the interface and the class.
 
 interface Repository<T> {
   add(item: T): void;

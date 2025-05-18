@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an interface named `GreetFunction` that defines a function named `greet` which takes one parameter `name` of type string and returns a string. Implement this interface in a function named `sayHello` that returns a greeting string like "Hello, [name]!".
+// ! Category: Easy
+// Todo: Create an interface named `GreetFunction` that defines a function named `greet` which takes one parameter `name` of type string and returns a string. Implement this interface in a function named `sayHello` that returns a greeting string like "Hello, [name]!".
 
 interface GreetFunction {
   greet(name: string): string;
@@ -16,8 +16,8 @@ console.log(greetFunction.greet("Alice"));
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an interface named `MathOperation` that defines a function named `operate` which takes two parameters of type number and returns a value of type number. Implement this interface in two functions named `add` and `multiply` that each sum and multiply two numbers respectively.
+// ! Category: Medium
+// Todo: Create an interface named `MathOperation` that defines a function named `operate` which takes two parameters of type number and returns a value of type number. Implement this interface in two functions named `add` and `multiply` that each sum and multiply two numbers respectively.
 
 interface MathOperation {
   operate(a: number, b: number): number;
