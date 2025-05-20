@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an interface called User with properties: id, name, email, and phone, using appropriate data types where phone can be null. Use a utility type to create a new type that ensures phone cannot be null. Define a function called getNonNullableUser that accepts a parameter of type User and returns an object of the new type.
+// ! Category: Easy
+// Todo: Create an interface called User with properties: id, name, email, and phone, using appropriate data types where phone can be null. Use a utility type to create a new type that ensures phone cannot be null. Define a function called getNonNullableUser that accepts a parameter of type User and returns an object of the new type.
 
 interface User {
   id: number;
@@ -36,8 +36,8 @@ console.log(getNonNullableUser(user1));
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an interface called Order with properties: orderId, customerName, items, and discountCode, using appropriate data types where discountCode can be null. Use a utility type to create a new type that ensures discountCode cannot be null. Implement an OrderProcessor class that has an addOrder method to add orders to the list and a processOrders method to process all orders ensuring that discountCode cannot be null.
+// ! Category: Medium
+// Todo: Create an interface called Order with properties: orderId, customerName, items, and discountCode, using appropriate data types where discountCode can be null. Use a utility type to create a new type that ensures discountCode cannot be null. Implement an OrderProcessor class that has an addOrder method to add orders to the list and a processOrders method to process all orders ensuring that discountCode cannot be null.
 
 interface Order {
   orderId: number;

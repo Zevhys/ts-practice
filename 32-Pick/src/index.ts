@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an interface called Person with properties: name, age, and email. Use the Pick utility type to create a new type that only includes the name and email properties. Define a function called createContact that accepts a parameter of this new type and returns an object containing name and email properties.
+// ! Category: Easy
+// Todo: Create an interface called Person with properties: name, age, and email. Use the Pick utility type to create a new type that only includes the name and email properties. Define a function called createContact that accepts a parameter of this new type and returns an object containing name and email properties.
 
 interface Person {
   name: string;
@@ -26,8 +26,8 @@ console.log(createContact(newPerson));
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an interface called Product with properties: id, name, price, category, and stock. Use the Pick utility type to create a new type that only includes id, name, and price properties. Implement a ProductManager class that has an addProduct method to add products to a product list and a getProductDetails method to retrieve product details based on id. The getProductDetails method should return an object with the new type that only contains id, name, and price properties.
+// ! Category: Medium
+// Todo: Create an interface called Product with properties: id, name, price, category, and stock. Use the Pick utility type to create a new type that only includes id, name, and price properties. Implement a ProductManager class that has an addProduct method to add products to a product list and a getProductDetails method to retrieve product details based on id. The getProductDetails method should return an object with the new type that only contains id, name, and price properties.
 
 interface Product {
   id: number;

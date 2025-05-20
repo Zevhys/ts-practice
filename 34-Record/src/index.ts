@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a type called User with properties: id, name, and email, using appropriate data types. Use the Record utility type to create a new type that uses string as the key and User as the value. Define a function called createUserMap that accepts an array of User objects and returns an object of type Record<string, User>.
+// ! Category: Easy
+// Todo: Create a type called User with properties: id, name, and email, using appropriate data types. Use the Record utility type to create a new type that uses string as the key and User as the value. Define a function called createUserMap that accepts an array of User objects and returns an object of type Record<string, User>.
 
 type User = {
   id: number;
@@ -27,8 +27,8 @@ console.log(createUserMap(users));
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a type called Product with properties: id, name, price, and category, using appropriate data types. Use the Record utility type to create a new type that uses number as the key and Product as the value. Implement a ProductCatalog class that has an addProduct method to add products to the catalog and a getProductById method to retrieve product details based on id. The getProductById method should return an object of type Product.
+// ! Category: Medium
+// Todo: Create a type called Product with properties: id, name, price, and category, using appropriate data types. Use the Record utility type to create a new type that uses number as the key and Product as the value. Implement a ProductCatalog class that has an addProduct method to add products to the catalog and a getProductById method to retrieve product details based on id. The getProductById method should return an object of type Product.
 
 type Product = {
   id: number;

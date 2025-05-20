@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an interface called Vehicle with properties: make, model, year, and color, using appropriate data types. Use the Exclude utility type to create a new type that excludes the color property from Vehicle. Define a function called getBasicInfo that accepts a parameter of type Vehicle and returns an object of the new type.
+// ! Category: Easy
+// Todo: Create an interface called Vehicle with properties: make, model, year, and color, using appropriate data types. Use the Exclude utility type to create a new type that excludes the color property from Vehicle. Define a function called getBasicInfo that accepts a parameter of type Vehicle and returns an object of the new type.
 
 interface Vehicle {
   make: string;
@@ -30,8 +30,8 @@ console.log(getBasicInfo(car));
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an interface called Product with properties: id, name, category, price, and stock, using appropriate data types. Use the Exclude utility type to create a new type that excludes price and stock properties from Product. Implement a ProductCatalog class that has an addProduct method to add products to the catalog and a getProductSummary method to retrieve product summary based on id. The getProductSummary method should return an object of the new type.
+// ! Category: Medium
+// Todo: Create an interface called Product with properties: id, name, category, price, and stock, using appropriate data types. Use the Exclude utility type to create a new type that excludes price and stock properties from Product. Implement a ProductCatalog class that has an addProduct method to add products to the catalog and a getProductSummary method to retrieve product summary based on id. The getProductSummary method should return an object of the new type.
 
 interface Product {
   id: number;

@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an interface called Person with properties: name, age, email, and address, using appropriate data types. Use the Extract utility type to create a new type that only includes name and email properties from Person. Define a function called getContactInfo that accepts a parameter of type Person and returns an object of the new type.
+// ! Category: Easy
+// Todo: Create an interface called Person with properties: name, age, email, and address, using appropriate data types. Use the Extract utility type to create a new type that only includes name and email properties from Person. Define a function called getContactInfo that accepts a parameter of type Person and returns an object of the new type.
 
 interface Person {
   name: string;
@@ -28,8 +28,8 @@ console.log(getContactInfo(p1));
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an interface called Employee with properties: id, name, position, salary, and department, using appropriate data types. Use the Extract utility type to create a new type that only includes id, name, and department properties from Employee. Implement an EmployeeDirectory class that has an addEmployee method to add employees to the directory and a getEmployeeDetails method to retrieve employee details based on id. The getEmployeeDetails method should return an object of the new type.
+// ! Category: Medium
+// Todo: Create an interface called Employee with properties: id, name, position, salary, and department, using appropriate data types. Use the Extract utility type to create a new type that only includes id, name, and department properties from Employee. Implement an EmployeeDirectory class that has an addEmployee method to add employees to the directory and a getEmployeeDetails method to retrieve employee details based on id. The getEmployeeDetails method should return an object of the new type.
 
 interface Employee {
   id: number;

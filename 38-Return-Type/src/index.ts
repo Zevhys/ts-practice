@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create a function called add that accepts two parameters of type number and returns the sum of these parameters. Use the ReturnType utility type to create a new type called AddReturnType that represents the return type of the add function. Define a function called printAddResult that accepts a parameter of type AddReturnType and prints the result to the console.
+// ! Category: Easy
+// Todo: Create a function called add that accepts two parameters of type number and returns the sum of these parameters. Use the ReturnType utility type to create a new type called AddReturnType that represents the return type of the add function. Define a function called printAddResult that accepts a parameter of type AddReturnType and prints the result to the console.
 
 function add(a: number, b: number) {
   return a + b;
@@ -16,8 +16,8 @@ printAddResult(test);
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create a Calculator class that has a subtract method to subtract two numbers and a multiply method to multiply two numbers. Use the ReturnType utility type to create new types called SubtractReturnType and MultiplyReturnType that represent the return types of the subtract and multiply methods. Implement a function called calculateResults that accepts a parameter of type array containing SubtractReturnType and MultiplyReturnType, and returns an object containing the sum and multiplication of elements in that array.
+// ! Category: Medium
+// Todo: Create a Calculator class that has a subtract method to subtract two numbers and a multiply method to multiply two numbers. Use the ReturnType utility type to create new types called SubtractReturnType and MultiplyReturnType that represent the return types of the subtract and multiply methods. Implement a function called calculateResults that accepts a parameter of type array containing SubtractReturnType and MultiplyReturnType, and returns an object containing the sum and multiplication of elements in that array.
 
 class Calculator {
   subtract(a: number, b: number) {

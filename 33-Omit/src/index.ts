@@ -1,5 +1,5 @@
-// ! Category : Easy
-// TODO : Create an interface called Car with properties: make, model, year, and color. Use the Omit utility type to create a new type that only includes make and model properties. Define a function called createCarSummary that accepts a parameter of this new type and returns an object containing make and model properties.
+// ! Category: Easy
+// Todo: Create an interface called Car with properties: make, model, year, and color. Use the Omit utility type to create a new type that only includes make and model properties. Define a function called createCarSummary that accepts a parameter of this new type and returns an object containing make and model properties.
 
 interface Car {
   make: string;
@@ -25,8 +25,8 @@ console.log(createCarSummary(car));
 
 console.log("");
 
-// ! Category : Medium
-// TODO : Create an interface called Employee with properties: id, name, position, salary, and department. Use the Omit utility type to create a new type that only includes name, position, and department properties. Implement an EmployeeManager class that has an addEmployee method to add employees to an employee list and a getEmployeeInfo method to retrieve employee information based on id. The getEmployeeInfo method should return an object with the new type that only contains name, position, and department properties.
+// ! Category: Medium
+// Todo: Create an interface called Employee with properties: id, name, position, salary, and department. Use the Omit utility type to create a new type that only includes name, position, and department properties. Implement an EmployeeManager class that has an addEmployee method to add employees to an employee list and a getEmployeeInfo method to retrieve employee information based on id. The getEmployeeInfo method should return an object with the new type that only contains name, position, and department properties.
 
 interface Employee {
   id: number;
