@@ -1,6 +1,7 @@
 # ts-practice
 
 [![Author](http://img.shields.io/badge/author-@Zevhys-blue.svg)](https://www.linkedin.com/in/rakha-djauhari/) [![GitHub license](https://img.shields.io/github/license/Zevhys/ts-practice)](https://github.com/Zevhys/ts-practice/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/Zevhys/ts-practice) [![Issues Welcome](https://img.shields.io/badge/issues-welcome-brightgreen.svg)](https://github.com/Zevhys/ts-practice/issues)
+[![Pull Requests Welcome](https://img.shields.io/badge/pull%20requests-welcome-brightgreen.svg)](https://github.com/Zevhys/ts-practice/pulls)
 
 This project is dedicated to learning and practicing TypeScript programming. It contains solutions to various exercises and problems that I have encountered while studying TypeScript. Each solution is implemented based on the concepts and materials that I have learned.
 
